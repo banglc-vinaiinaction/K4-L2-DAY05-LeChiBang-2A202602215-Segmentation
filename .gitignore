@@ -6,3 +6,4 @@ data/**/groundtruth/
 data/_cache/
 /*.zip
 tiers_gt/
+scratch_sub/

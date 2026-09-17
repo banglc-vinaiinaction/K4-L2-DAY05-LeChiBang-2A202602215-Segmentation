@@ -1,5 +1,5 @@
 {
-  "total": 48.9,
+  "total": 47.7,
   "max": 82,
   "group": "tiers",
   "review_flags": [],
@@ -16,8 +16,8 @@
       "type": "instance",
       "group": "tiers",
       "weight": 32,
-      "points": 18.5,
-      "value": 0.66,
+      "points": 17.3,
+      "value": 0.644,
       "flags": []
     },
     "hard_panoptic": {
