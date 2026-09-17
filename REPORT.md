@@ -46,7 +46,7 @@ Chọn một lỗi **có thật** trong bài. Nếu công cụ lỗi khiến b�
 - Quy tắc và hành động sửa: Quy tắc instance segmentation yêu cầu mỗi cá thể vật lý phải là một instance riêng biệt. Tôi đã phóng to (zoom), dùng đường cắt dọc theo khe hẹp giữa hai cửa xe để tách thành 2 polygon riêng biệt với 2 ID độc lập trong danh sách Objects.
 - Sau sửa đã Save và export lại chưa? Đã Save trong CVAT và export lại ra `submissions/cp2_slice.zip`.
 
-Nếu bạn **đã xem Summary tự đánh giá trên GitHub Actions hoặc tự chạy script**, ghi ngắn một kết quả liên quan lỗi vừa sửa (ví dụ task, metric trước/sau nếu có): Chạy scorer cục bộ `python3 -m scoring.scorecard --group tiers` đạt 47.7 / 82 điểm trên 3 tier, kết quả clean không có cờ cảnh báo (review_flags rỗng). Scorecard ba tier tối đa **82**, không phải điểm cuối trên 100. Không tự ghi PASS/top 3/bonus; người phụ trách xác nhận theo tiêu chí lớp. Không đưa file ground truth vào fork.
+Nếu bạn **đã xem Summary tự đánh giá trên GitHub Actions hoặc tự chạy script**, ghi ngắn một kết quả liên quan lỗi vừa sửa (ví dụ task, metric trước/sau nếu có): Chạy scorer cục bộ `python3 -m scoring.scorecard --group tiers` đạt 54.5 / 82 điểm trên 3 tier, kết quả clean không có cờ cảnh báo (review_flags rỗng). Scorecard ba tier tối đa **82**, không phải điểm cuối trên 100. Không tự ghi PASS/top 3/bonus; người phụ trách xác nhận theo tiêu chí lớp. Không đưa file ground truth vào fork.
 
 ## 4. Ba ca chưa chắc hoặc đã cân nhắc
 
